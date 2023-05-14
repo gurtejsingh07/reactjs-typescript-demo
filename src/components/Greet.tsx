@@ -9,7 +9,7 @@ export const Welcome = (props: WelcomeProps) => {
   return (
     <div>
       <h2>Welcome :{name}</h2>
-      <h4>Great! you have {experience}'s of expericence with React</h4>
+      <h4>Great! you have {experience} years of expericence with React</h4>
       {certification ? (
         <h4>Good to know you are react certified developer</h4>
       ) : (
